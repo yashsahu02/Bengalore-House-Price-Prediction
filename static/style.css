@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #C0C0C0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    background-color: white;
+
+    width: 80%;
+    height: 600px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.heading {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+label {
+    font-size: 22px;
+    display: inline-block;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.row-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.btn {
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+
+.hide {
+    display: none;
+}
+
+.prediction-box {
+    margin-top: 0px;
+}
+
+.prediction {
+    font-weight: normal;
+    text-align: center;
+}
+
+@media screen and (max-width:1020px) {
+    .container {
+        width: 90%;
+    }
+
+    .heading {
+        height: 70px;
+        border-bottom: 1px solid gray;
+        font-size: 16px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .row-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        height: 60px;
+    }
+
+    input[type="number"],
+    select {
+        font-size: 18px;
+    }
+
+    .btn {
+        width: 60%;
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (max-width:775px) {
+    body {
+        background-color: white;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .heading{
+        font-size: 16px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .row {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .row-item {
+        display: block;
+        margin: auto;
+        width: 70%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    input[type="number"],
+    select {
+        width: 100%;
+    }
+
+    .btn {
+        width: 50%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .heading {
+        font-size: 12px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .row {
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .row-item {
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        width: 60%;
+        height: 40px;
+        font-size: 18px;
+    }
+    .prediction{
+        font-size: 18px;
+    }
+}
